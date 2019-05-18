@@ -20,10 +20,12 @@ function myfunction() {
     timeCount++;
     counttime();
   }
-  this.classList.add('open', 'show', 'disable');
-  cardClicked.push(this);
-  checkMatch();
-  // counttime();
+  if (!this.classList.contains('show') && cardClicked.length < 2) {
+    this.classList.add('open', 'show', 'disable');
+    cardClicked.push(this);
+    checkMatch();
+    // counttime();
+  }
 };
 
 var deck = document.querySelector('.deck');

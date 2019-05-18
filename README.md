@@ -44,7 +44,7 @@ Run `index.html` file in your favourite browser.
 ## What I have done
 
 1.  There are 8 pair of different cards.
-2.  click on the cards at various places.
+2.  Click on the cards at various places.
 3.  If two cards are matched then card changes its colour and if not matched cards closes.
 4.  When we are playing the game timer displays and stars will be decreased after certain number of moves.
 5.  If we click on reload button then the game `restarts` from the beginning.
