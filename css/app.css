@@ -106,3 +106,31 @@ h1 {
   float: right;
   cursor: pointer;
 }
+
+/* Media Queries for mobile view */
+@media only screen and (max-width:480px) {
+  .deck {
+    width: 90vw;
+    min-height: 380px;
+    padding: 15px;
+  }
+
+  .deck .card {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+/* Media Queries for ipad view */
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .deck {
+    width: 80vw;
+    min-height: 580px;
+    padding: 15px;
+  }
+
+  .deck .card {
+    height: 125px;
+    width: 125px;
+  }
+}

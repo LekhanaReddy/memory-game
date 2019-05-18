@@ -26,7 +26,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 As per the udacity instructions get the starter code for the `Memory game` clone or download from the github.
 
-## GIVEN FILES
+## Project Structure
 
 -   The downloaded project contains the following files
     1.  css/app.css
@@ -44,16 +44,17 @@ Run `index.html` file in your favourite browser.
 ## What I have done
 
 1.  There are 8 pair of different cards.
-2.  Click on the cards at various places.
-3.  If two cards are matched then card changes its colour and if not matched cards closes.
+2.  Click on the cards.
+3.  If two cards are matched then card changes its color and if not matched cards closes.
 4.  When we are playing the game timer displays and stars will be decreased after certain number of moves.
 5.  If we click on reload button then the game `restarts` from the beginning.
-6.  game ends if all cards are matched .
+6.  game ends if all cards are matched.
 7.  When game ends it displays the message like `congrats` & you won the game along with the time taken, number of stars and moves.
 8.  After completion it shows an OK button, if we click on that the game should restart.
+9.  I have applied media queries for mobile and ipad view.
 
 ## What I have learnt
 
--   I have learnt how to use **sweetalert** and **querySelector** functions .
--   I have also learnt JavaScript DOM `Eventlistener` methods.
--   This project is very helpful for my carrier.
+-   I have also learnt JavaScript DOM `Eventlistener` methods
+-   I have learnt how to use **sweetalert** and **querySelector** functions
+-   This project is very helpful for my carrier
