@@ -68,7 +68,7 @@ function checkMatch(){
           cardClicked[i].classList.remove("open","show");
         }
         count++;
-        if(count==1){
+        if(count==8){
           gameCompleted();
         }
       }
