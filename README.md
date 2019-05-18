@@ -35,9 +35,9 @@ As per the udacity instructions get the starter code for the `Memory game` clone
 
 ## how to run  
 
-run index.html file in your favourite browser.
+Run index.html file in your favourite browser.
 
-## what I have done
+## What I have done
 1. There are 8 pair of different cards.
 2. click on the cards at various places.
 3. if two cards are matched then card changes its colour and if not matched cards closes.
